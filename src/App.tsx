@@ -1,26 +1,3 @@
-
-import { useEffect, useRef } from "react";
-import { PhoGame } from "./game/engine";
-
-export default function App() {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
-
-  useEffect(() => {
-    const cv = canvasRef.current;
-    if (!cv) return;
-    const game = new PhoGame(cv);
-    (window as unknown as { __pho36: PhoGame }).__pho36 = game;
-    return () => game.destroy();
-  }, []);
-
-  return (
-    <div className="game-root">
-      <canvas ref={canvasRef} className="game-canvas" />
-    </div>
-  );
-}
-
-
 import { GameMap } from "./components/gameMap";
 
 /**
