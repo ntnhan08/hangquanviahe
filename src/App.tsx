@@ -1,4 +1,4 @@
---- src/App.tsx (原始)
+
 import { useEffect, useRef } from "react";
 import { PhoGame } from "./game/engine";
 
@@ -21,7 +21,6 @@ export default function App() {
 }
 
 
-+++ src/App.tsx (修改后)
 import { GameMap } from "./components/gameMap";
 
 /**

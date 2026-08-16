@@ -1,7 +1,4 @@
---- src/components/gameMap.tsx (原始)
 
-
-+++ src/components/gameMap.tsx (修改后)
 import { useEffect, useRef, useState } from "react";
 import { Game } from "../scripts/game";
 

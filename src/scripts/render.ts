@@ -1,7 +1,4 @@
---- src/scripts/render.ts (原始)
 
-
-+++ src/scripts/render.ts (修改后)
 // ============================================================
 // render.ts — Vẽ thủ công toàn bộ món ăn, nước uống & nhân vật.
 // Tất cả đều vẽ bằng Canvas 2D, cache sprite để đạt hiệu năng cao.

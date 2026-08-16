@@ -1,7 +1,4 @@
---- src/style.css (原始)
 
-
-+++ src/style.css (修改后)
 @import "tailwindcss";
 
 html,

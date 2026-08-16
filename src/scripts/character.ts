@@ -1,7 +1,4 @@
---- src/scripts/character.ts (原始)
 
-
-+++ src/scripts/character.ts (修改后)
 // ============================================================
 // character.ts — Thực thể: đầu bếp & khách hàng (tạo, ngoại hình, di chuyển)
 // ============================================================

@@ -1,7 +1,4 @@
---- src/scripts/game.ts (原始)
 
-
-+++ src/scripts/game.ts (修改后)
 // ============================================================
 // game.ts — Lõi game Hàng Quán Vỉa Hè
 // Vòng lặp, thế giới, mini-game, phục vụ, hạt, ambient & toàn bộ UI.
